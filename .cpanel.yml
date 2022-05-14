@@ -1,11 +1,10 @@
+##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/tbuildaln/taimexcrm.buildal.net/layouts/v7
+    - export DEPLOYPATH=/home/tbuildaln/taimexcrm.buildal.net/layouts/v7/
     - /bin/cp -R lib $DEPLOYPATH
-    - export DEPLOYPATH=/home/tbuildaln/taimexcrm.buildal.net/layouts/v7
     - /bin/cp -R modules $DEPLOYPATH
-    - export DEPLOYPATH=/home/tbuildaln/taimexcrm.buildal.net/layouts/v7
     - /bin/cp -R resources $DEPLOYPATH
-    - export DEPLOYPATH=/home/tbuildaln/taimexcrm.buildal.net/layouts/v7    
     - /bin/cp -R skins $DEPLOYPATH
+    /bin/cp .cpanel.yml $DEPLOYPATH
