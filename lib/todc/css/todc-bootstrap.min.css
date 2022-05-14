@@ -5255,3 +5255,6 @@ input {
 .select2-results .select2-selection-limit {
   padding: 10px !important;
 }
+[class^="vicon-"], [class*=" vicon-"] {
+    color: #38a767!important;
+}
