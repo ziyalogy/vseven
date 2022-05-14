@@ -239,7 +239,7 @@ background-image: linear-gradient(0deg, #dfebdf 0%, #fff 100%);
 						</div>
 						<div class="group">
 							<button type="submit" class="button buttonBlue">Sign in</button><br>
-							<a class="forgotPasswordLink" style="color: #35aa47;">Did you forget your password?</a>
+							<a class="forgotPasswordLink" style="color: #35aa47;">Forgot your password?</a>
 						</div>
 					</form>
 				</div>
@@ -256,7 +256,7 @@ background-image: linear-gradient(0deg, #dfebdf 0%, #fff 100%);
 						</div>
 						<div class="group">
 							<button type="submit" class="button buttonBlue forgot-submit-btn">Submit</button><br>
-							<span>Please enter your details and submit<a class="forgotPasswordLink pull-right" style="color: #35aa47;">Back</a></span>
+							<span>Please enter details and submit<a class="forgotPasswordLink pull-right" style="color: #35aa47;">Back</a></span>
 						</div>
 					</form>
 				</div>
