@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tbuildaln/taimexcrm.buildal.net/layouts/v7
+    - /bin/cp -R lib $DEPLOYPATH
+    - /bin/cp -R modules $DEPLOYPATH
+    - /bin/cp -R resources $DEPLOYPATH
+    - /bin/cp -R skins $DEPLOYPATH
